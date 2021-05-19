@@ -1,0 +1,83 @@
+header {
+  background: #e2da69;
+  color: darkgray;
+  padding: 2rem 0;
+  width: 100%;
+  position: fixed;
+  left: 0;
+  top: 0;
+}
+
+.header a {
+  color: white;
+  text-decoration: none;
+}
+
+.logo-navContanier {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+.logo {
+  height: 80px;
+}
+
+.navigation ul {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+.navigation ul li {
+  display: inline-block;
+}
+.navigation ul li a {
+  display: block;
+  padding: 0.5rem 1rem;
+  transition: all 0, 5s;
+  border-radius: 10px;
+}
+.navigation ul li a:hover {
+  background: #ad8585;
+}
+
+p {
+  margin-bottom: 1.6em;
+}
+
+.container {
+  width: 85%;
+  max-width: 850px;
+  margin: 0 auto;
+}
+
+.footer {
+  background: #8e8f8f;
+  padding: 4rem 0;
+  text-align: center;
+  margin-top: 6rem;
+  height: 10px;
+}
+
+.lista {
+  background-color: #f3d5b2;
+}
+
+.lista {
+  background-color: #e09844;
+}
+
+h1 {
+  color: coral;
+}
+
+h2 {
+  color: coral;
+}
+
+h3 {
+  color: coral;
+}
+
+/*# sourceMappingURL=stylepagina2.css.map */

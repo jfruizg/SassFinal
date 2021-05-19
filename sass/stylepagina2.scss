@@ -1,0 +1,18 @@
+@import "header";
+@import "footer";
+$color: rgb(243, 213, 178);
+.lista {
+    background-color: $color;
+}
+
+@if ($color==rgb(243, 213, 178)) {
+    .lista {
+        background-color: rgb(224, 152, 68);
+    }
+}
+
+@for $i from 1 through 3 {
+    h#{$i} {
+        color: coral;
+    }
+}
